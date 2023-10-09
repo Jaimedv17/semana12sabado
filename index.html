@@ -1,0 +1,124 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="pantalla">
+            <section class="container">
+
+                <img src="BCPimg.png" alt="">
+
+                <form class="inputs" action="">
+                    
+                    <div class="inputDni">
+                        <label for="nameText">Ingrese su DNI</label><br>
+                        <input class="inputBorder" id="inputDni" type="text" placeholder="DNI" autocomplete="off">
+                    </div>
+
+                    <div class="segundoInput">
+                        <label for="inputPassword">Ingrese su contraseña</label><br>
+                        <input class="inputBorder" id="inputPassword" type="password" placeholder="password" autocomplete="off">
+                    </div>
+
+                    <button id="buttonEnviar">Enviar</button>
+                    <p class="mensaje">contraseña incorrecta</p>
+                
+                </form>
+                
+            </section>
+
+            <section class="menu">
+
+                    <img src="BCPimg.png" alt="">
+
+                    <div class="padding">
+                        <div class="botones2">
+                            <button id="buttonConsultarMonto">Consultar saldo</button>
+                            <button id="buttonIngresarMonto">Ingresar monto</button>
+                            <button id="buttonRetirarMonto">Retirar monto</button>
+                        </div>
+                    </div>
+
+            </section>
+
+            <section class="consultarSaldo">
+
+                <img src="BCPimg.png" alt="">
+
+                <div class="contenedorConsultar">
+                    <div class="contenedorMonto">
+                        <h2 class="montoActual">600$</h2>
+                        <p class="montoActualText">Monto actual</p>
+                    </div>
+                    <div class="contenedorBotonesConsultas">
+                        <button id="buttonMenu">Menu</button>
+                        <button id="buttonInicio">Inicio</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ingresarMonto">
+                <img src="BCPimg.png" alt="">
+
+                <div class="contenedorIngreso">
+
+                    <label class="colorLabel" for="">Monto total</label>
+                    <input class="colorInput" id="saldoActual" type="text" value="600" disabled><br><br>
+
+                    <label class="colorLabel" for="">Monto ingresado</label>
+                    <input class="colorInput" id="saldoIngresado" type="text" value="0" disabled>
+
+                    <form action="">
+
+                        <input class="inputBorder" id="inputSaldoIngresar" type="text" autocomplete="off">
+                        <button class="agregarMontoStyle" id="agregarMonto">Agregar</button>
+                        
+                    </form>
+                    <p class="mensaje2">Monto exedido</p>
+
+                    <div class="contenedorBotonesConsultas">
+                        <button id="buttonMenu3">Menu</button>
+                        <button id="buttonInicio3">Inicio</button>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="retirarMonto">
+                <img src="BCPimg.png" alt="">
+
+                <div class="contenedorSalida">
+
+                    <label class="colorLabel" for="">Monto total</label>
+                    <input class="colorInput" id="saldoActua2" type="text" value="600" disabled><br><br>
+
+                    <label class="colorLabel" for="">Monto retirado</label>
+                    <input class="colorInput" id="saldoRetirado" type="text" value="0" disabled>
+
+                    <form action="">
+
+                        <input class="inputBorder" id="inputSaldoRetirado" type="text" autocomplete="off">
+                        <button class="agregarMontoStyle" id="buttonRestarMonto">Retirar</button>
+                        
+                    </form>
+
+                    <p class="mensaje3">Monto invalido, recuerde que tiene que mantener por lo menos 10$ como monto total</p>
+
+                    <div class="contenedorBotonesConsultas">
+                        <button id="buttonMenu4">Menu</button>
+                        <button id="buttonInicio4">Inicio</button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+        <script src="app.js"></script>
+    </body>
+    </html>

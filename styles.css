@@ -1,0 +1,205 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #002a8d;
+}
+
+.pantalla{
+    width: 1700px;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 500px;
+    margin-top: 50px;
+    background-image: url(background.png);
+    background-position:center center;
+    background-size: cover;
+    padding-top: 2rem;
+    border-radius: 10px;
+}
+    
+
+img{
+    width: 100%;
+    background-color: white;
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+    background-color: #f58727;
+    /* background-image: url(background.png); */
+    margin: 0 auto;
+    margin-top: 5rem;
+    border: 2px solid #031753;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.inputs{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 25px;
+}
+.segundoInput{
+    margin-top: 1rem;
+}
+
+button{
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    background-color: #ff7800;
+    border-radius: 10px;
+    /* border: 2px solid #a34f06; */
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+input{
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: #4c5057;
+}
+
+.mensaje{
+    display: none;
+    color: white;
+}
+
+/*...............................................*/
+
+
+.menu{
+    display: none;
+    width: 500px;
+    height: 600px;
+    background-color: #042d6f;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border: 2px solid #031753;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.padding{
+    padding: 1rem;
+}
+
+.botones2{
+    display: flex;
+    flex-direction: column;
+}
+
+/*............................*/
+
+.consultarSaldo{
+    display: none;
+    width: 500px;
+    height: 600px;
+    background-color: #042d6f;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border: 2px solid #031753;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+}
+
+
+.contenedorConsultar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.contenedorMonto{
+    margin-top: 6rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.montoActualText{
+    font-size: 1.5rem;
+    color: white;
+}
+
+/*.....................*/
+
+.ingresarMonto{
+    display: none;
+    width: 500px;
+    height: 600px;
+    background-color: #042d6f;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border: 2px solid #031753;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.mensaje2{
+    display: none;
+    color: white;
+}
+
+.contenedorIngreso{
+    padding: 1rem;
+}
+
+.colorInput{
+    color: white
+}
+
+.colorLabel{
+    color: white;
+}
+
+/*.............................*/
+
+
+.retirarMonto{
+    display: none;
+    width: 500px;
+    height: 600px;
+    background-color: #042d6f;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border: 2px solid #031753;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.mensaje3{
+    display: none;
+    color: white;
+}
+
+.contenedorSalida{
+    padding: 1rem;
+}
+
+.inputBorder{
+    border: 2px solid black;
+}
+
+.inputBorder:focus{
+    outline: none;
+    border: 2px solid #e14d1d;
+}
+ 
+
