@@ -65,6 +65,14 @@ button{
     color: white;
 }
 
+.buttonInicio{
+    background-color: #ff7800;
+    border: 2px solid #a3520a;
+}
+.buttonInicio:hover{
+    background-color: #002a8d;
+}
+
 input{
     padding: 7px;
     border-radius: 5px;
